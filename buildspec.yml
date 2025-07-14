@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     REPOSITORY_URI: 730335567231.dkr.ecr.us-east-1.amazonaws.com/spring-demo-ecr-cicd
-    DOCKER_CONTAINER_NAME: spring-demo-ecr-cicd
+    DOCKER_CONTAINER_NAME: springapp-demo-container
 
 phases:
   pre_build:
